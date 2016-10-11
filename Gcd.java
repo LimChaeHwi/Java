@@ -8,10 +8,9 @@ public class Gcd {
 		System.out.println("gcd(5,15) -> " + gcd(5, 15));
 		System.out.println("gcd(250,30) -> " + gcd(250, 30));
 	}
-
 	public static int gcd(int a, int b){
-		int large = 0;	//Å«¼ö (¹üÀ§)
-		int gcd = 1;	//ÃÖ´ë°ø¾à¼ö
+		int large = 0;	//Ã…Â«Â¼Ã¶ (Â¹Ã¼Ã€Â§)
+		int gcd = 1;	//ÃƒÃ–Â´Ã«Â°Ã¸Â¾Ã Â¼Ã¶
 		
 		if(a<b)
 			large = b;
